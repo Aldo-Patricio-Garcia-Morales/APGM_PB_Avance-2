@@ -8,6 +8,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 #include <iostream>
 #include <conio.h>
 #include <string.h>
+#include <windows.h>
 #include <string>
 #include <stdio.h>
 #include <cstring>
@@ -32,6 +33,7 @@ int main()
 
 	do
 	{
+		
 	printf("\t ***TiendaGamer UANL*** \n");
     printf(" 1.-Agregar Articulo \n 2.-Modificar Articulo\n 3.-Eliminar Articulo\n 4.-Lista Articulovigentes\n 5.-Limpiar Pantalla\n 6.-Salir\n");
     scanf_s("%d", &opcion);
